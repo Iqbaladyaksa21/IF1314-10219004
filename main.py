@@ -10,6 +10,7 @@ class hero :
 
    def __del__ (self):
       class_name = self.__class__.__name__
+      hero.jumlah -=1
       print("Sebuah Objek", class_name,", yaitu", self.name, "dihapus")
 
 # instansiasi
@@ -25,3 +26,4 @@ print(hero2.__dict__)
 print(hero3.__dict__)
 
 del hero2
+print (hero.jumlah)
