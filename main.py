@@ -26,4 +26,4 @@ print(hero2.__dict__)
 print(hero3.__dict__)
 
 del hero2
-print (hero.jumlah)
+print ("jumlah hero: ", hero.jumlah)
